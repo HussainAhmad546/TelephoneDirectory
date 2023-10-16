@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./MainPageStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-div">
+            <h2>Dummy Heading</h2>
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="Search For a Product..">
+                <button class="search-button">Search</button>
+            </div>
+            <h3>Aide a la redcheche</h3>
+
+            <div class="row">
+                <div class="col">
+                    <label for="first_name" class="form-label">Prenom</label>
+                    <input type="text" class="form-control" id="first_name" placeholder="Saisir le prenom"
+                        style="background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+                <div class="col">
+                    <label for="last_name" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="last_name" placeholder="Saisir le nom"
+                        style="background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="first_name" class="form-label">date</label>
+                    <input type="date" class="form-control" id="first_name" placeholder="Saisir le prenom"
+                        style="background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+                <div class="col">
+                    <label for="last_name" class="form-label">Telephone</label>
+                    <input type="tel" class="form-control" id="last_name" placeholder="Saisir le nom"
+                        style="background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="date_of_birth" class="form-label">Date</label>
+                    <input type="date" class="form-control" id="date_of_birth" placeholder="Courel"
+                        style="width: 100%; background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="first_name" class="form-label">Courel</label>
+                    <input type="text" class="form-control" id="first_name"
+                        style="background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+                <div class="col">
+                    <label for="last_name" class="form-label">Code Postal</label>
+                    <input type="tel" class="form-control" id="last_name" placeholder="67676"
+                        style="background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="last_name" class="form-label">Institude at transit</label>
+                    <input type="text" class="form-control" id="last_name" placeholder="99999-99999"
+                        style="background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+                <div class="col">
+                    <label for="first_name" class="form-label">Folio</label>
+                    <input type="text" class="form-control" id="first_name" placeholder="67676"
+                        style="background-color: rgba(241, 250, 244, 0.69); border: 1px solid rgba(5, 201, 77, 0.1);">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <button class="btn btn-lg btn-block w-100" data-bs-toggle="modal" data-bs-target="#confirmationModal"
+                    style="background-color: rgba(5, 201, 77, 1); color: white;">Rienitialiser</button>
+            </div>
+        </div>
+
+        <div class="table-div">
+            <h3>Recherche member et client particular</h3>
+            <p>Recherche member et client particular</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Prenom</th>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Telephone</th>
+                        <th scope="col">Courriel</th>
+                        <th scope="col">Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr style="background-color: rgba(5, 201, 77, 0.06);">
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr>
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr style="background-color: rgba(5, 201, 77, 0.06);">
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr>
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr style="background-color: rgba(5, 201, 77, 0.06);">
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr>
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr style="background-color: rgba(5, 201, 77, 0.06);">
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr>
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr style="background-color: rgba(5, 201, 77, 0.06);">
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr>
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr style="background-color: rgba(5, 201, 77, 0.06);">
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr>
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                    <tr style="background-color: rgba(5, 201, 77, 0.06);">
+                        <td>Dhanny</td>
+                        <td>Test-Fivos</td>
+                        <td>675767667</td>
+                        <td>user@email.com</td>
+                        <td>55 street 34 H76</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Are you sure you want to submit?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <div class="input-group">
+                            <input type="tel" class="form-control" id="phone" placeholder="9876543221"
+                                style="border: 1px solid green; color: grey;">
+                            <img src="./telepone.png" class='image' alt="Person Icon"
+                                style="width: 20px; height: 20px;">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="input-group">
+                            <select class="form-select" id="role" style="border: 1px solid green; color: grey;">
+                                <option value="" disabled selected>Select your role</option>
+                                <option value="student">Student</option>
+                                <option value="teacher">Teacher</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                            <img src="./Role.png" class='image' alt="Person Icon" style="width: 20px; height: 20px;">
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <input type="radio" id="yes" name="confirmation" value="yes" style="color: grey;"
+                        onchange="this.style.color = this.checked ? 'green' : 'grey';">
+                    <label for="yes" style="color: grey;">Yes</label>
+                    <input type="radio" id="no" name="confirmation" value="no" style="color: grey;"
+                        onchange="this.style.color = this.checked ? 'green' : 'grey';">
+                    <label for="no" style="color: grey;">No</label><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+                        style="width: 48%;">Close</button>
+                    <button type="button" class="btn btn-success" style="width: 48%;">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-..."
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
